@@ -1,0 +1,16 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Work Sans', sans-serif;
+}
+
+pre, code, kbd, samp, tt{
+  font-family: 'Roboto Mono', monospace;
+  font-size:1em;
+}
+
+.nav {
+    float: right;
+}
