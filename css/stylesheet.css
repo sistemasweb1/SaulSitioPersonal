@@ -2,6 +2,15 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.container {
+    max-width: 960px;
+    margin-right: auto;
+    margin-right: auto;
+
+    padding-left: 2 rem;
+    padding-right: 2 rem;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Work Sans', sans-serif;
 }
@@ -13,4 +22,17 @@ pre, code, kbd, samp, tt{
 
 .nav {
     float: right;
+    padding-right: 1rem;
+}
+
+.nav ul li{
+    padding: 1rem;
+    list-style: none;
+    display: inline;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
 }
