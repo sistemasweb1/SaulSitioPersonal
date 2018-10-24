@@ -1,5 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: #000051;
+    color: #9c27b0;
 }
 
 .container {
@@ -33,6 +35,16 @@ pre, code, kbd, samp, tt{
 
 .nav ul li a {
     text-decoration: none;
-    color: black;
     text-align: center;
+    color: #9c27b0;
+}
+
+.button {
+    color: white;
+    background-color: black;
+}
+
+.fucking_big_button{
+    color: white;
+    background-color: black;
 }

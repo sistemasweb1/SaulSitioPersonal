@@ -5,3 +5,51 @@ a {
 ul {
     list-style-type: none;
 }
+
+
+.button {
+    padding: 2rem;
+    margin: 0.25rem;
+    border-radius: 0.25rem;
+}
+
+#github {
+    background-color: grey;
+}
+
+#github a {
+    color: white;
+}
+
+#instagram {
+    background-color: darkmagenta;
+}
+
+#instagram a {
+    color: white;
+}
+
+#twitter {
+    background-color: aqua;
+}
+
+#twitter a {
+    color: black;
+}
+
+#facebook {
+    background-color: cornflowerblue;
+}
+
+#facebook a {
+    color: black;
+}
+
+#mail {
+    background-color: orange;
+}
+
+#mail a {
+    color: black;
+}
+
