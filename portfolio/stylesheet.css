@@ -1,0 +1,32 @@
+.carousel div {
+    padding: 8rem;
+
+}
+
+.carousel h2 {
+    font-size: 4rem;
+}
+
+.carousel h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+#beacon {
+    background-color: #A020F0;
+    color: white;
+}
+
+#mirus {
+    background-color: black;
+    color: white;
+}
+
+#help {
+    background: #FF007F;
+    color: black;
+}
+
+#bello {
+    background-color: #40E0D0;
+    color: black;
+}

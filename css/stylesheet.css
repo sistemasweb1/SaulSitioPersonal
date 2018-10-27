@@ -22,29 +22,45 @@ pre, code, kbd, samp, tt{
   font-size:1em;
 }
 
-.nav {
-    float: right;
+header {
     padding-right: 1rem;
 }
 
-.nav ul li{
+header ul{
+    float: right;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+header ul li{
     padding: 1rem;
     list-style: none;
     display: inline;
 }
 
-.nav ul li a {
+header ul li a {
     text-decoration: none;
     text-align: center;
     color: #9c27b0;
 }
 
+header ul li a:hover{
+    text-decoration: underline;
+}
+
 .button {
     color: white;
     background-color: black;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    padding: 2rem;
+    margin: 0.25rem;
+    border-radius: 0.25rem;
 }
 
-.fucking_big_button{
-    color: white;
-    background-color: black;
+.button a {
+    font-size: 1.25rem;
 }

@@ -1,55 +1,39 @@
-a {
-    color: black;
+a span {
+    margin-right: 0.25rem;
+    margin-left:  0.25rem;
+}
+
+.button {
+    width: 95%;
+    font-size: 1.5rem;
+    margin: 0.5rem;
 }
 
 ul {
     list-style-type: none;
 }
 
-
-.button {
-    padding: 2rem;
-    margin: 0.25rem;
-    border-radius: 0.25rem;
-}
-
 #github {
-    background-color: grey;
-}
-
-#github a {
+    background-color: darkmagenta;
     color: white;
 }
 
 #instagram {
-    background-color: darkmagenta;
-}
-
-#instagram a {
+    background-color: #FF1493;
     color: white;
 }
 
 #twitter {
     background-color: aqua;
-}
-
-#twitter a {
     color: black;
 }
 
 #facebook {
     background-color: cornflowerblue;
-}
-
-#facebook a {
     color: black;
 }
 
 #mail {
     background-color: orange;
-}
-
-#mail a {
     color: black;
 }
-
