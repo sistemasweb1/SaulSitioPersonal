@@ -13,6 +13,10 @@ body {
     padding-right: 2 rem;
 }
 
+.mono {
+    font-family: 'Roboto Mono', monospace;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Work Sans', sans-serif;
 }
@@ -24,10 +28,12 @@ pre, code, kbd, samp, tt{
 
 header {
     padding-right: 1rem;
+    display: block;
 }
 
 header ul{
-    float: right;
+    position: absolute;
+    right: 0;
 }
 
 header h1 {
@@ -63,4 +69,9 @@ header ul li a:hover{
 
 .button a {
     font-size: 1.25rem;
+}
+
+::selection {
+    background-color: #9c27b0;
+    color: #000051;
 }
