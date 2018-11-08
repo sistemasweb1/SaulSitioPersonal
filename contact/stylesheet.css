@@ -4,9 +4,10 @@ a span {
 }
 
 .button {
-    width: 95%;
+    max-width: 30rem;
     font-size: 1.5rem;
-    margin: 0.5rem;
+    display: block;
+    margin: 1rem auto;
 }
 
 ul {

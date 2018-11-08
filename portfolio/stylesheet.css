@@ -16,17 +16,37 @@
     color: white;
 }
 
+#beacon::selection{
+    color: #A020F0;
+    background-color: white;
+}
+
 #mirus {
     background-color: black;
     color: white;
 }
 
-#help {
-    background: #FF007F;
+#mirus::selection{
     color: black;
+    background-color: white;
+}
+
+#help {
+    background-color: #FF007F;
+    color: black;
+}
+
+#help::selection{
+    background-color: black;
+    color: #FF007F;
 }
 
 #bello {
     background-color: #40E0D0;
     color: black;
+}
+
+#bello::selection{
+    color: #40E0D0;
+    background-color: black;
 }
