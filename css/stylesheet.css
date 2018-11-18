@@ -4,6 +4,14 @@ body {
     color: #9c27b0;
 }
 
+p{
+    color: white;
+}
+
+p.special {
+    color: #9c27b0;
+}
+
 .container {
     max-width: 960px;
     margin-right: auto;
@@ -25,39 +33,59 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Work Sans', sans-serif;
 }
 
+.extra{
+    text-align: center;
+    margin: 2.5vw 0px;
+    font-size: 5vw;
+}
+
 pre, code, kbd, samp, tt{
   font-family: 'Roboto Mono', monospace;
   font-size:1em;
 }
 
 header {
-    padding-right: 1rem;
     display: block;
 }
 
-header ul{
-    position: absolute;
-    right: 0;
+header hr{
+    border: 1px solid #9c27b0;
 }
 
-header h1 {
+header h1#title {
+    display: inline-block;
     font-size: 2rem;
 }
 
+header nav {
+    display: inline-block;
+    font-size: 1.25rem;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+nav ul {
+    display: flex;
+    padding: 0px;
+}
+
 header ul li{
-    padding: 1rem;
+    padding: 0rem 1rem;
     list-style: none;
-    display: inline;
 }
 
 header ul li a {
-    text-decoration: none;
+    text-decoration: underline;
     text-align: center;
     color: #9c27b0;
+    padding: 0.2rem;
 }
 
 header ul li a:hover{
-    text-decoration: underline;
+    text-decoration: none;
+    background-color: #9c27b0;
+    color: #000051;
+    border-radius: 0.2rem;
 }
 
 .button {
@@ -69,15 +97,58 @@ header ul li a:hover{
     padding: 2rem;
     margin: 0.25rem;
     border-radius: 0.25rem;
+    /*font-size: 1.25rem; */
+    border: none;
+}
+
+.button-light {
+    color: black;
+    background-color: white;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    padding: 2rem;
+    margin: 0.25rem;
+    border-radius: 0.25rem;
     font-size: 1.25rem;
     border: none;
 }
 
-.button a {
+.button a, .button-light a {
     font-size: 1.25rem;
 }
 
 ::selection {
     background-color: #9c27b0;
     color: #000051;
+}
+
+.centered {
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+
+@media only screen and (max-width: 600px) {
+    header h1#title{
+        display: block;
+        text-align: center;
+    }
+
+    header nav {
+        display: block;
+    }
+
+    header ul {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    header ul li {
+        
+        flex: auto;
+    }
+
+    .extra {
+        font-size: 10vw;
+    }
 }

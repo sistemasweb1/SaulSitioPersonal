@@ -1,6 +1,6 @@
 .carousel div {
     padding: 8rem;
-
+    /* max-width: 50rem; */
 }
 
 .carousel h2 {
@@ -14,6 +14,7 @@
 #beacon {
     background-color: #A020F0;
     color: white;
+    background-image: url("https://sheldrybox.com/wp-content/uploads/2015/11/Bosque-Noche-SB.png");
 }
 
 #beacon::selection{
@@ -36,7 +37,11 @@
     color: black;
 }
 
-#help::selection{
+#help p, #bello p{
+    color: black;
+}
+
+#hello::selection {
     background-color: black;
     color: #FF007F;
 }
@@ -46,7 +51,25 @@
     color: black;
 }
 
-#bello::selection{
+#bello::selection {
     color: #40E0D0;
     background-color: black;
+}
+
+@media only screen and (max-width: 600px) {
+    .carousel div {
+        padding: 6rem 2rem;
+        /* max-width: 50rem; */
+    }
+
+    #carousel h2 {
+        font-size: 8vh;
+        text-align: center;
+    }
+
+    .button, .button-light {
+        margin-right: auto !important;
+        margin-left: auto !important;
+        width: 80%;
+    }
 }

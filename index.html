@@ -4,12 +4,53 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="theme-color" content="#000051">
     <title>Saúl Núñez</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono|Work+Sans:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono|Work+Sans:800" rel="stylesheet">
 
     <link rel="stylesheet" type="text/css" media="screen" href="./css/stylesheet.css" />
+    <style>
+        @media only screen and (max-width: 800px) {
+            #welcome {
+                display: block;
+                flex-wrap:wrap;
+            }
+
+            #welcome img {
+                max-width: 60% !important;
+                height: auto !important;
+                margin: 2rem auto;
+            }
+
+            #intro {
+                margin: auto;
+                max-width: 90%;
+                text-align: justify;
+            }
+        }
+
+        #welcome {
+            display: flex;
+            margin: 4rem 0px;
+        }
+
+        #intro {
+            /*float: right;*/
+            display: block;
+            /*margin-left: auto;*/
+            margin-right: auto;
+        }
+
+        #welcome img {
+            max-width: 25%;
+            height: auto;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
 </head>
 
 <body>
@@ -25,16 +66,19 @@
         </nav>
     </header>
 
-    <div id="intro" class="mono">
-        <h1>Software Engineer</h1>
-        <ul>
-            <li>Software arquitecture</li>
-            <li>Unity3D experience working in Beacon: The Awakening</li>
-            <li>Android app developer</li>
-            <li>Pebble Watch developer</li>
-            <li>Knowledge in C#, Kotlin, C++, C, Python, Rust</li>
-            <li>Photographer</li>
-        </ul>
+    <div id="welcome">
+        <img src="./img/mugshot.jpg" draggable="false"/>
+        <div id="intro" class="mono">
+            <h1 class="extra">Software Engineer</h1>
+            <ul>
+                <li>Software arquitecture</li>
+                <li>Unity3D experience working in Beacon: The Awakening</li>
+                <li>Android app developer</li>
+                <li>Pebble Watch developer</li>
+                <li>Knowledge in C#, Kotlin, C++, C, Python, Rust</li>
+                <li>Photographer</li>
+            </ul>
+        </div>
     </div>
 </body>
 
